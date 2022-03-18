@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  min-height: 480px;
+  max-height: 480px;
+  min-width: 800px;
+  max-width: 800px;
+}
+
+.CpuCard{
+  margin-top:100px;
+  margin-left:-10px;
+}
+
+.GpuCard{
+  margin-top:100px;
+  margin-left:12px;
+}
+
+.CpuProgress{
+  color:'#7900ff'
+}
+
+.GpuProgress{
+  color:'#3db5e2';
+}
+
+.ClockColumn{
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 250px;
+  margin-left: -35px;
+  font-size: 29px;
+  color: #7ed957;
+  font-weight: bold;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ad9932;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
